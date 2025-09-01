@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>funnel</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/imgs/funnel-icon.png"
+      sizes="32x32"
+    />
+    <link rel="stylesheet" href="./css/funnel.css" />
+
+    <!-- fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJsj4O7suJ_usL9ti80rVHcxDbTe2MKgA&libraries=places&callback=initMap"
+    ></script>
+  </head>
+  <body>
+    <div data-target="adContainer" class="ads hidden">
+      <div class="ad-background">
+        <div class="relative-container">
+          <div data-target="adData" class="ads-content hidden">
+            <div class="ad-data">
+              <div class="ad-text-container">
+                <h3 class="ad-title">Privacy Policy</h3>
+                <p class="ad-text">
+                  Application and services offered by Loanz.com are governed by
+                  the Loanz USA Inc. General Terms of Service and additional
+                  terms and conditions or written agreements applicable to
+                  specific products and services presented during the
+                  application or ordering process. Loanz.com privacy practices
+                  are explained in the Loanz USA Inc. Privacy Policy.
+                </p>
+                <p class="ad-text">
+                  Our lending partners offer a range of possible combinations of
+                  credit terms to qualified applicants. Loan fees and interest
+                  rates are determined solely by the lender or lending partner
+                  based on the lender's or lending partner's internal policies,
+                  underwriting criteria, and applicable law.
+                </p>
+                <p class="ad-text">
+                  Our lending partners offer a range of possible combinations of
+                  credit terms to qualified applicants. Loan fees and interest
+                  rates are determined solely by the lender or lending partner
+                  based on the lender's or lending partner's internal policies,
+                  underwriting criteria, and applicable law.
+                </p>
+                <p class="ad-text">
+                  Our lending partners offer a range of possible combinations of
+                  credit terms to qualified applicants. Loan fees and interest
+                  rates are determined solely by the lender or lending partner
+                  based on the lender's or lending partner's internal policies,
+                  underwriting criteria, and applicable law.
+                </p>
+                <p class="ad-text">
+                  Our lending partners offer a range of possible combinations of
+                  credit terms to qualified applicants. Loan fees and interest
+                  rates are determined solely by the lender or lending partner
+                  based on the lender's or lending partner's internal policies,
+                  underwriting criteria, and applicable law.
+                </p>
+                <p class="ad-text">
+                  Our lending partners offer a range of possible combinations of
+                  credit terms to qualified applicants. Loan fees and interest
+                  rates are determined solely by the lender or lending partner
+                  based on the lender's or lending partner's internal policies,
+                  underwriting criteria, and applicable law.
+                </p>
+                <p class="ad-text">
+                  Our lending partners offer a range of possible combinations of
+                  credit terms to qualified applicants. Loan fees and interest
+                  rates are determined solely by the lender or lending partner
+                  based on the lender's or lending partner's internal policies,
+                  underwriting criteria, and applicable law.
+                </p>
+              </div>
+              <button data-target="closeAd" class="close-ad-button">
+                <img src="./assets/svgs/close-x.svg" alt="Close Ad" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-target="termsContainer" class="ads hidden">
+      <div class="ad-background">
+        <div class="relative-container">
+          <div data-target="termsData" class="ads-content hidden">
+            <div class="ad-data">
+              <div class="ad-text-container">
+                <h3 class="ad-title">Terms and Conditions</h3>
+                <p class="ad-text">
+                  Application and services offered by Loanz.com are governed by
+                  the Loanz USA Inc. General Terms of Service and additional
+                  terms and conditions or written agreements applicable to
+                  specific products and services presented during the
+                  application or ordering process. Loanz.com privacy practices
+                  are explained in the Loanz USA Inc. Privacy Policy.
+                </p>
+                <p class="ad-text">
+                  Our lending partners offer a range of possible combinations of
+                  credit terms to qualified applicants. Loan fees and interest
+                  rates are determined solely by the lender or lending partner
+                  based on the lender's or lending partner's internal policies,
+                  underwriting criteria, and applicable law.
+                </p>
+                <p class="ad-text">
+                  Our lending partners offer a range of possible combinations of
+                  credit terms to qualified applicants. Loan fees and interest
+                  rates are determined solely by the lender or lending partner
+                  based on the lender's or lending partner's internal policies,
+                  underwriting criteria, and applicable law.
+                </p>
+                <p class="ad-text">
+                  Our lending partners offer a range of possible combinations of
+                  credit terms to qualified applicants. Loan fees and interest
+                  rates are determined solely by the lender or lending partner
+                  based on the lender's or lending partner's internal policies,
+                  underwriting criteria, and applicable law.
+                </p>
+                <p class="ad-text">
+                  Our lending partners offer a range of possible combinations of
+                  credit terms to qualified applicants. Loan fees and interest
+                  rates are determined solely by the lender or lending partner
+                  based on the lender's or lending partner's internal policies,
+                  underwriting criteria, and applicable law.
+                </p>
+                <p class="ad-text">
+                  Our lending partners offer a range of possible combinations of
+                  credit terms to qualified applicants. Loan fees and interest
+                  rates are determined solely by the lender or lending partner
+                  based on the lender's or lending partner's internal policies,
+                  underwriting criteria, and applicable law.
+                </p>
+                <p class="ad-text">
+                  Our lending partners offer a range of possible combinations of
+                  credit terms to qualified applicants. Loan fees and interest
+                  rates are determined solely by the lender or lending partner
+                  based on the lender's or lending partner's internal policies,
+                  underwriting criteria, and applicable law.
+                </p>
+              </div>
+              <button data-target="closeterms" class="close-ad-button">
+                <img src="./assets/svgs/close-x.svg" alt="close " />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="header-container container">
+        <div class="logo-container">
+          <img src="./assets/imgs/funnel-logo.png" alt="logo" />
+        </div>
+        <div class="secure">
+          <div class="secure-img-container">
+            <img src="./assets/imgs/secure-funnel.png" alt="secure" />
+          </div>
+          <p class="secure-txt">Secure</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="progrees-sec">
+      <div class="container">
+        <div class="progress-bar">
+          <div data-progress-bg class="progress-bar-inner"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="car-buyers">
+      <div class="container">
+        <p><span>15,750</span> car buyers found the perfect car in Alberta</p>
+      </div>
+    </div>
+
+    <section class="survey-sec container">
+      <form id="surveyForm" action="javascript:void(0);">
+        <div class="steps-contianer">
+          <!-- 1 -->
+          <div id="financeQuote" data-step class="step">
+            <div class="step-header">
+              <h2>What would you like a finance quote for?</h2>
+            </div>
+            <div class="radio-group">
+              <input
+                type="radio"
+                id="finance_car"
+                name="finance_quote"
+                value="Car"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="citizenship" for="finance_car">
+                <p>Car</p>
+              </label>
+
+              <input
+                type="radio"
+                id="finance_truck"
+                name="finance_quote"
+                value="Truck"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="citizenship" for="finance_truck">
+                <p>Truck</p>
+              </label>
+
+              <input
+                type="radio"
+                id="finance_SUV"
+                name="finance_quote"
+                value="SUV"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="citizenship" for="finance_SUV">
+                <p>SUV</p>
+              </label>
+
+              <input
+                type="radio"
+                id="finance_van"
+                name="finance_quote"
+                value="Van"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="citizenship" for="finance_van">
+                <p>Van</p>
+              </label>
+            </div>
+            <!-- privacy policy -->
+            <div class="privacy-contaienr">
+              <div class="container">
+                <p class="str-quote">
+                  By starting your quote, you're agreeing to our
+                  <span data-target="adBtn">privacy policy.</span>
+                </p>
+                <div class="key-points">
+                  <p>
+                    ✅No impact on your credit score - see if you'll be accepted
+                    before choosing to proceed.
+                  </p>
+                  <p>✅Your no-obligation quote is just 1 minute away!</p>
+                </div>
+
+                <div class="disappers-holder">
+                  <p>DISAPPEARS AFTER QUESTION 1</p>
+                </div>
+
+                <div class="path-container">
+                  <img src="./assets/svgs/path-line.svg" alt="path" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div id="citizenship" data-step class="step hidden">
+            <div class="step-header">
+              <h2>Are you a Canadian citizen or permanent resident?</h2>
+            </div>
+            <div class="radio-group">
+              <input
+                type="radio"
+                id="citizenship_status_yes"
+                name="citizenship_status"
+                value="Yes"
+                class="hidden"
+                data-focusbg
+              />
+              <label
+                data-next="relationshipStatus"
+                for="citizenship_status_yes"
+              >
+                <p>Yes</p>
+              </label>
+
+              <input
+                type="radio"
+                id="citizenship_status_no"
+                name="citizenship_status"
+                value="No"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="relationshipStatus" for="citizenship_status_no">
+                <p>No</p>
+              </label>
+            </div>
+
+            <div class="buttns pt-50">
+              <button type="button" id="prevBtn" class="btn-prev">
+                <div class="prev-top-holder">
+                  <div class="prev-icon">
+                    <svg
+                      width="30"
+                      height="17"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                        fill-rule="nonzero"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="prev-icon-txt">
+                    <p>Previous</p>
+                  </div>
+                </div>
+                <div class="prev-bot-holder">
+                  <p>You won't lose your information</p>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div id="relationshipStatus" data-step class="step hidden">
+            <div class="step-header">
+              <h2>Which best describes you?</h2>
+            </div>
+            <div class="radio-group">
+              <!-- Married -->
+              <input
+                type="radio"
+                id="relationship_status_Married"
+                name="relationship_status"
+                value="Married"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="stepBirth" for="relationship_status_Married">
+                <p>Married</p>
+              </label>
+
+              <!-- Single -->
+              <input
+                type="radio"
+                id="relationship_status_Single"
+                name="relationship_status"
+                value="Single"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="stepBirth" for="relationship_status_Single">
+                <p>Single</p>
+              </label>
+
+              <!-- Cohabiting -->
+              <input
+                type="radio"
+                id="relationship_status_Cohabiting"
+                name="relationship_status"
+                value="Cohabiting"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="stepBirth" for="relationship_status_Cohabiting">
+                <p>Cohabiting</p>
+              </label>
+
+              <!-- Divorced -->
+              <input
+                type="radio"
+                id="relationship_status_Divorced"
+                name="relationship_status"
+                value="Divorced"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="stepBirth" for="relationship_status_Divorced">
+                <p>Divorced</p>
+              </label>
+
+              <!-- Separated -->
+              <input
+                type="radio"
+                id="relationship_status_Separated"
+                name="relationship_status"
+                value="Separated"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="stepBirth" for="relationship_status_Separated">
+                <p>Separated</p>
+              </label>
+
+              <!-- Widowed -->
+              <input
+                type="radio"
+                id="relationship_status_Widowed"
+                name="relationship_status"
+                value="Widowed"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="stepBirth" for="relationship_status_Widowed">
+                <p>Widowed</p>
+              </label>
+
+              <!-- Civil Partnership -->
+
+              <input
+                type="radio"
+                id="relationship_status_CivilPartnership"
+                name="relationship_status"
+                value="Civil_Partnership"
+                class="hidden"
+                data-focusbg
+              />
+              <label
+                data-next="stepBirth"
+                for="relationship_status_CivilPartnership"
+              >
+                <p>Civil Partnership</p>
+              </label>
+            </div>
+
+            <div class="buttns pt-50">
+              <button type="button" id="prevBtn" class="btn-prev">
+                <div class="prev-top-holder">
+                  <div class="prev-icon">
+                    <svg
+                      width="30"
+                      height="17"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                        fill-rule="nonzero"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="prev-icon-txt">
+                    <p>Previous</p>
+                  </div>
+                </div>
+                <div class="prev-bot-holder">
+                  <p>You won't lose your information</p>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div id="stepBirth" data-step class="step hidden">
+            <div class="step-header">
+              <h2>What is your date of birth?</h2>
+            </div>
+
+            <div class="inputs-contianer">
+              <div class="birth-inp-holder">
+                <span class="birth-label">Date of birth</span>
+                <div class="inp-ineer">
+                  <input
+                    id="dobDayInp"
+                    name="dobDay"
+                    placeholder="DD"
+                    inputmode="numeric"
+                    class=""
+                  />
+                </div>
+                <h3>/</h3>
+                <div class="inp-ineer">
+                  <input
+                    id="dobMonthInp"
+                    name="dobMonth"
+                    placeholder="MM"
+                    inputmode="numeric"
+                    class=""
+                  />
+                </div>
+                <h3>/</h3>
+                <div class="inp-ineer">
+                  <input
+                    id="dobYearInp"
+                    name="dobYear"
+                    placeholder="YYYY"
+                    inputmode="numeric"
+                    class=""
+                  />
+                </div>
+              </div>
+
+              <div error="error" class="error-holder"></div>
+            </div>
+
+            <div class="buttns">
+              <button data-next-form type="button" class="btn-next">
+                <div class="next-icon-txt">
+                  <p>Continue</p>
+                </div>
+                <div class="next-icon">
+                  <svg
+                    width="30"
+                    height="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                      fill-rule="nonzero"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+
+              <button type="button" id="prevBtn" class="btn-prev">
+                <div class="prev-top-holder">
+                  <div class="prev-icon">
+                    <svg
+                      width="30"
+                      height="17"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                        fill-rule="nonzero"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="prev-icon-txt">
+                    <p>Previous</p>
+                  </div>
+                </div>
+                <div class="prev-bot-holder">
+                  <p>You won't lose your information</p>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div id="stepAddress" data-step class="step hidden">
+            <div class="step-header">
+              <h2>Next, where do you live?</h2>
+            </div>
+
+            <div class="radiosContainer inputs-contianer-layout">
+              <div class="input-container-form input-holder-address">
+                <input
+                  id="gm-autocomplete"
+                  type="input"
+                  name="gm-autocomplete"
+                  placeholder="Enter Address Here To Lookup"
+                />
+              </div>
+
+              <button
+                type="button"
+                id="showMoreAddressInp"
+                class="show-more-address-inputs"
+              >
+                My Address Is Not Listed
+              </button>
+
+              <div class="left-address-inputs inputs-contianer-layout">
+                <div class="input-container-form inputs-contianer col">
+                  <div class="input-holder-animat">
+                    <input id="streetAddress" type="input" name="street" />
+                    <span class="input-label">Street Address</span>
+                  </div>
+                  <span
+                    class="error-alert error-holder"
+                    data-error
+                    error="error"
+                  ></span>
+                </div>
+
+                <div class="input-container-form inputs-contianer col">
+                  <div class="input-holder-animat">
+                    <input id="streetAddress2" type="input" name="street2" />
+                    <span class="input-label">Unit/Apt/Suite</span>
+                  </div>
+                </div>
+
+                <div class="input-container-form inputs-contianer col">
+                  <div class="input-holder-animat">
+                    <input id="city" type="input" name="city" />
+                    <span class="input-label">City</span>
+                  </div>
+
+                  <span
+                    class="error-alert error-holder"
+                    data-error
+                    error="error"
+                  ></span>
+                </div>
+
+                <div class="input-container-form inputs-contianer col">
+                  <div class="input-holder-animat">
+                    <select name="province" id="province">
+                      <option value="AB">Alberta</option>
+                      <option value="BC">British Columbia</option>
+                      <option value="MB">Manitoba</option>
+                      <option value="NB">New Brunswick</option>
+                      <option value="NL">Newfoundland and Labrador</option>
+                      <option value="NS">Nova Scotia</option>
+                      <option value="NT">Northwest Territories</option>
+                      <option value="NU">Nunavut</option>
+                      <option value="ON">Ontario</option>
+                      <option value="PE">Prince Edward Island</option>
+                      <option value="QC">Quebec</option>
+                      <option value="SK">Saskatchewan</option>
+                      <option value="YT">Yukon</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-container-form inputs-contianer col">
+                  <div class="input-holder-animat min-width">
+                    <input id="postal_code" type="input" name="postal_code" />
+                    <span class="input-label">Postal Code</span>
+                  </div>
+
+                  <span
+                    class="error-alert error-holder"
+                    data-error
+                    error="error"
+                  ></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="buttns">
+              <button data-next-form type="button" class="btn-next">
+                <div class="next-icon-txt">
+                  <p>Continue</p>
+                </div>
+                <div class="next-icon">
+                  <svg
+                    width="30"
+                    height="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                      fill-rule="nonzero"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+
+              <button type="button" id="prevBtn" class="btn-prev">
+                <div class="prev-top-holder">
+                  <div class="prev-icon">
+                    <svg
+                      width="30"
+                      height="17"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                        fill-rule="nonzero"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="prev-icon-txt">
+                    <p>Previous</p>
+                  </div>
+                </div>
+                <div class="prev-bot-holder">
+                  <p>You won't lose your information</p>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div id="livingStatus" data-step class="step hidden">
+            <div class="step-header">
+              <h2>Ok, which best describes you?</h2>
+            </div>
+            <div class="radio-group">
+              <!-- Private tenant -->
+              <input
+                type="radio"
+                id="living_status_private_tenant"
+                name="living_status"
+                value="Private_Tenant"
+                class="hidden"
+                data-focusbg
+              />
+              <label
+                data-next="addressHistory"
+                for="living_status_private_tenant"
+              >
+                <p>Private Tenant</p>
+              </label>
+              <!-- Homeowner -->
+              <input
+                type="radio"
+                id="living_status_homeowner"
+                name="living_status"
+                value="Homeowner"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="addressHistory" for="living_status_homeowner">
+                <p>Homeowner</p>
+              </label>
+              <!-- Living with Parents -->
+
+              <input
+                type="radio"
+                id="living_status_parents"
+                name="living_status"
+                value="Living_with_Parents"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="addressHistory" for="living_status_parents">
+                <p>Living with Parents</p>
+              </label>
+            </div>
+
+            <div class="buttns pt-50">
+              <button type="button" id="prevBtn" class="btn-prev">
+                <div class="prev-top-holder">
+                  <div class="prev-icon">
+                    <svg
+                      width="30"
+                      height="17"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                        fill-rule="nonzero"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="prev-icon-txt">
+                    <p>Previous</p>
+                  </div>
+                </div>
+                <div class="prev-bot-holder">
+                  <p>You won't lose your information</p>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 7 -->
+          <div id="addressHistory" data-step class="step hidden">
+            <div class="step-header">
+              <h2></h2>
+
+              <p class="lenders">Lenders ask for 3 years' address history.</p>
+            </div>
+            <div class="inputs-contianer">
+              <div class="inputs-layout">
+                <div class="input-holder-animat">
+                  <input
+                    id="yearsAtAddressHistory"
+                    type="text"
+                    name="yearsAtAddress"
+                    inputmode="numeric"
+                    autocomplete="off"
+                  />
+                  <span class="input-label">Years</span>
+                </div>
+                <div class="input-holder-animat">
+                  <input
+                    id="monthsAtAddressHistory"
+                    type="text"
+                    name="monthsAtAddress"
+                    inputmode="numeric"
+                    autocomplete="off"
+                  />
+                  <span class="input-label">Months</span>
+                </div>
+              </div>
+
+              <div error="error" class="error-holder"></div>
+            </div>
+
+            <div class="buttns">
+              <button data-next-form type="button" class="btn-next">
+                <div class="next-icon-txt">
+                  <p>Continue</p>
+                </div>
+                <div class="next-icon">
+                  <svg
+                    width="30"
+                    height="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                      fill-rule="nonzero"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+
+              <button type="button" id="prevBtn" class="btn-prev">
+                <div class="prev-top-holder">
+                  <div class="prev-icon">
+                    <svg
+                      width="30"
+                      height="17"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                        fill-rule="nonzero"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="prev-icon-txt">
+                    <p>Previous</p>
+                  </div>
+                </div>
+                <div class="prev-bot-holder">
+                  <p>You won't lose your information</p>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 8 -->
+          <div id="employmentStatus" data-step class="step hidden">
+            <div class="step-header">
+              <h2>What is your employment status?</h2>
+            </div>
+            <div class="radio-group">
+              <input
+                type="radio"
+                id="employmentStatusFullTime"
+                name="employment_status"
+                value="Full-time"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="jobTitle" for="employmentStatusFullTime">
+                <p>Full-time</p>
+              </label>
+
+              <!-- // -->
+              <input
+                type="radio"
+                id="employmentStatusPartTime"
+                name="employment_status"
+                value="Part-time"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="jobTitle" for="employmentStatusPartTime">
+                <p>Part-time</p>
+              </label>
+
+              <!-- // -->
+              <input
+                type="radio"
+                id="employmentStatusSelfEmployed"
+                name="employment_status"
+                value="Self-employed"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="jobTitle" for="employmentStatusSelfEmployed">
+                <p>Self-employed</p>
+              </label>
+
+              <!-- // -->
+              <input
+                type="radio"
+                id="employmentStatusDisability"
+                name="employment_status"
+                value="Disability"
+                class="hidden"
+                data-focusbg
+              />
+              <label
+                data-next="employedDuration"
+                for="employmentStatusDisability"
+              >
+                <p>Disability</p>
+              </label>
+
+              <!-- // -->
+              <input
+                type="radio"
+                id="employmentStatusRetired"
+                name="employment_status"
+                value="Retired"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="employedDuration" for="employmentStatusRetired">
+                <p>Retired</p>
+              </label>
+
+              <!-- // -->
+              <input
+                type="radio"
+                id="employmentStatusStudent"
+                name="employment_status"
+                value="Student"
+                class="hidden"
+                data-focusbg
+              />
+              <label data-next="employedDuration" for="employmentStatusStudent">
+                <p>Student</p>
+              </label>
+            </div>
+
+            <div class="buttns pt-50">
+              <button type="button" id="prevBtn" class="btn-prev">
+                <div class="prev-top-holder">
+                  <div class="prev-icon">
+                    <svg
+                      width="30"
+                      height="17"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                        fill-rule="nonzero"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="prev-icon-txt">
+                    <p>Previous</p>
+                  </div>
+                </div>
+                <div class="prev-bot-holder">
+                  <p>You won't lose your information</p>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 9-a -->
+          <div id="jobTitle" data-step class="step hidden">
+            <div class="step-header">
+              <h2>Great! What's your current job title?</h2>
+
+              <p class="lenders">(We won't contact your employer)</p>
+            </div>
+            <div class="inputs-contianer-layout">
+              <!-- // -->
+              <div class="inputs-contianer col">
+                <div class="input-holder-animat">
+                  <input
+                    id="employmentsOccupation"
+                    type="text"
+                    name="employments-occupation"
+                    autocomplete="off"
+                  />
+                  <span class="input-label">Your job title</span>
+                </div>
+                <div error="error" class="error-holder"></div>
+              </div>
+              <!-- // -->
+              <div class="inputs-contianer col">
+                <div class="input-holder-animat">
+                  <input
+                    id="employerName"
+                    type="text"
+                    name="employer_name"
+                    autocomplete="off"
+                  />
+                  <span class="input-label"
+                    >Which company do you work for?</span
+                  >
+                </div>
+                <div error="error" class="error-holder"></div>
+              </div>
+              <!-- // -->
+              <div class="inputs-contianer col">
+                <div class="input-holder-animat">
+                  <input
+                    id="employerTown"
+                    type="text"
+                    name="employer_Town"
+                    autocomplete="off"
+                  />
+                  <span class="input-label"
+                    >Where is your workplace based?</span
+                  >
+                </div>
+                <div error="error" class="error-holder"></div>
+              </div>
+            </div>
+
+            <div class="buttns">
+              <button data-next-form type="button" class="btn-next">
+                <div class="next-icon-txt">
+                  <p>Continue</p>
+                </div>
+                <div class="next-icon">
+                  <svg
+                    width="30"
+                    height="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                      fill-rule="nonzero"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+
+              <button type="button" id="prevBtn" class="btn-prev">
+                <div class="prev-top-holder">
+                  <div class="prev-icon">
+                    <svg
+                      width="30"
+                      height="17"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                        fill-rule="nonzero"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="prev-icon-txt">
+                    <p>Previous</p>
+                  </div>
+                </div>
+                <div class="prev-bot-holder">
+                  <p>You won't lose your information</p>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 9-b -->
+          <div id="employedDuration" data-step class="step hidden">
+            <div class="step-header">
+              <h2>How long have you been a student?</h2>
+            </div>
+            <div class="inputs-contianer">
+              <div class="inputs-layout">
+                <div class="input-holder-animat">
+                  <input
+                    id="yearsAtEmployerDuration"
+                    type="text"
+                    name="yearsAtEmployer"
+                    inputmode="numeric"
+                    autocomplete="off"
+                  />
+                  <span class="input-label">Years</span>
+                </div>
+                <div class="input-holder-animat">
+                  <input
+                    id="monthsAtEmployerDuration"
+                    type="text"
+                    name="monthsAtEmployer"
+                    inputmode="numeric"
+                    autocomplete="off"
+                  />
+                  <span class="input-label">Months</span>
+                </div>
+              </div>
+
+              <div error="error" class="error-holder"></div>
+            </div>
+
+            <div class="buttns">
+              <button data-next-form type="button" class="btn-next">
+                <div class="next-icon-txt">
+                  <p>Continue</p>
+                </div>
+                <div class="next-icon">
+                  <svg
+                    width="30"
+                    height="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                      fill-rule="nonzero"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+
+              <button type="button" id="prevBtn" class="btn-prev">
+                <div class="prev-top-holder">
+                  <div class="prev-icon">
+                    <svg
+                      width="30"
+                      height="17"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                        fill-rule="nonzero"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="prev-icon-txt">
+                    <p>Previous</p>
+                  </div>
+                </div>
+                <div class="prev-bot-holder">
+                  <p>You won't lose your information</p>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 10 -->
+          <div id="monthlyIncomeStep" data-step class="step hidden">
+            <div class="step-header">
+              <h2>Roughly, how much do you earn each month?</h2>
+            </div>
+
+            <div class="inputs-contianer">
+              <div class="Roug-inp-holder">
+                <input
+                  id="monthlyIncomeInp"
+                  name="monthly-income"
+                  inputmode="numeric"
+                  autocomplete="off"
+                  class=""
+                />
+                <span class="Roug-label">$</span>
+              </div>
+
+              <div error="error" class="error-holder"></div>
+            </div>
+
+            <div class="buttns">
+              <button data-next-form type="button" class="btn-next">
+                <div class="next-icon-txt">
+                  <p>Continue</p>
+                </div>
+                <div class="next-icon">
+                  <svg
+                    width="30"
+                    height="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                      fill-rule="nonzero"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+
+              <button type="button" id="prevBtn" class="btn-prev">
+                <div class="prev-top-holder">
+                  <div class="prev-icon">
+                    <svg
+                      width="30"
+                      height="17"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                        fill-rule="nonzero"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="prev-icon-txt">
+                    <p>Previous</p>
+                  </div>
+                </div>
+                <div class="prev-bot-holder">
+                  <p>You won't lose your information</p>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 11 -->
+          <div id="loanAmountStep" data-step class="step hidden">
+            <div class="step-header">
+              <h2>Roughly, how much would you like to borrow?</h2>
+            </div>
+
+            <div class="inputs-contianer">
+              <div class="Roug-inp-holder">
+                <input
+                  id="loanAmountInp"
+                  name="loan-amount"
+                  inputmode="numeric"
+                  value="10,000"
+                />
+                <span class="Roug-label">$</span>
+              </div>
+              <span class="Roug-note">You can change this later on.</span>
+              <div error="error" class="error-holder"></div>
+            </div>
+
+            <div class="buttns">
+              <button data-next-form type="button" class="btn-next">
+                <div class="next-icon-txt">
+                  <p>Continue</p>
+                </div>
+                <div class="next-icon">
+                  <svg
+                    width="30"
+                    height="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                      fill-rule="nonzero"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+
+              <button type="button" id="prevBtn" class="btn-prev">
+                <div class="prev-top-holder">
+                  <div class="prev-icon">
+                    <svg
+                      width="30"
+                      height="17"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                        fill-rule="nonzero"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="prev-icon-txt">
+                    <p>Previous</p>
+                  </div>
+                </div>
+                <div class="prev-bot-holder">
+                  <p>You won't lose your information</p>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 12 -->
+          <div id="nameStep" data-step class="step hidden">
+            <div class="step-header">
+              <h2>Almost done, let us know who you are?</h2>
+            </div>
+            <div class="Name-step-layout">
+              <div class="title-header-hloder">
+                <p>Your title</p>
+              </div>
+              <div class="radio-group">
+                <input
+                  type="radio"
+                  id="salutationMr"
+                  name="salutationtitle"
+                  value="Mr"
+                  class="hidden"
+                  data-focusbg
+                />
+                <label for="salutationMr">
+                  <p>Mr</p>
+                </label>
+
+                <input
+                  type="radio"
+                  id="salutationMrs"
+                  name="salutationtitle"
+                  value="Mrs"
+                  class="hidden"
+                  data-focusbg
+                />
+                <label for="salutationMrs">
+                  <p>Mrs</p>
+                </label>
+
+                <input
+                  type="radio"
+                  id="salutationMiss"
+                  name="salutationtitle"
+                  value="Miss"
+                  class="hidden"
+                  data-focusbg
+                />
+                <label for="salutationMiss">
+                  <p>Miss</p>
+                </label>
+
+                <input
+                  type="radio"
+                  id="salutationMs"
+                  name="salutationtitle"
+                  value="Ms"
+                  class="hidden"
+                  data-focusbg
+                />
+                <label for="salutationMs">
+                  <p>Ms</p>
+                </label>
+              </div>
+
+              <div error="error" class="error-holder"></div>
+            </div>
+
+            <div class="inputs-contianer-layout">
+              <div class="inputs-contianer col">
+                <div class="input-holder-animat">
+                  <input
+                    id="firstName"
+                    type="text"
+                    name="first-name"
+                    autocomplete="off"
+                  />
+                  <span class="input-label">First name</span>
+                </div>
+                <div error="error" class="error-holder"></div>
+              </div>
+
+              <div class="inputs-contianer col">
+                <div class="input-holder-animat">
+                  <input
+                    id="lastName"
+                    type="text"
+                    name="last-name"
+                    autocomplete="off"
+                  />
+                  <span class="input-label">Last name</span>
+                </div>
+                <div error="error" class="error-holder"></div>
+              </div>
+            </div>
+
+            <div class="buttns">
+              <button data-next-form type="button" class="btn-next">
+                <div class="next-icon-txt">
+                  <p>Continue</p>
+                </div>
+                <div class="next-icon">
+                  <svg
+                    width="30"
+                    height="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                      fill-rule="nonzero"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+
+              <button type="button" id="prevBtn" class="btn-prev">
+                <div class="prev-top-holder">
+                  <div class="prev-icon">
+                    <svg
+                      width="30"
+                      height="17"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                        fill-rule="nonzero"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="prev-icon-txt">
+                    <p>Previous</p>
+                  </div>
+                </div>
+                <div class="prev-bot-holder">
+                  <p>You won't lose your information</p>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 13 -->
+          <div id="sendQuote" data-step class="step hidden">
+            <div class="step-header">
+              <h2>And finally, where should we send your quote?</h2>
+            </div>
+
+            <div class="inputs-contianer-layout">
+              <div class="inputs-contianer col">
+                <div class="input-holder-animat">
+                  <input
+                    id="emailInp"
+                    type="text"
+                    name="email"
+                    autocomplete="off"
+                  />
+                  <span class="input-label">Email address</span>
+                </div>
+                <div error="error" class="error-holder"></div>
+              </div>
+
+              <div class="inputs-contianer col">
+                <div class="input-holder-animat min-width">
+                  <input
+                    id="contactNumberInp"
+                    type="text"
+                    name="contactNumber"
+                    autocomplete="off"
+                    inputmode="numeric"
+                  />
+                  <span class="input-label">Phone number</span>
+                </div>
+                <div error="error" class="error-holder min-hight"></div>
+              </div>
+
+              <div class="terms-holder">
+                <h2 class="terms-holder-header">Terms and conditions</h2>
+
+                <div class="terms-holder-inner">
+                  <label class="check-container">
+                    <input
+                      id="consent"
+                      type="checkbox"
+                      name="consent"
+                      value="1"
+                      class=""
+                    />
+                    <span class="check-icon-holder">
+                      <img src="./assets/svgs/check.svg" alt="check" />
+                    </span>
+                  </label>
+
+                  <label for="consent" class="tcpa">
+                    <p>
+                      I have read and agree to
+                      <span data-target="termsBtn"
+                        >Car Finance 247 Limited's terms &amp; conditions</span
+                      >
+                    </p>
+                  </label>
+                </div>
+
+                <p error="error" class="error-holder"></p>
+              </div>
+            </div>
+
+            <div class="buttns">
+              <button data-next-form type="submit" class="btn-next">
+                <div class="next-icon-txt">
+                  <p>Finish</p>
+                </div>
+                <div class="next-icon">
+                  <svg
+                    width="30"
+                    height="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                      fill-rule="nonzero"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+
+              <button type="button" id="prevBtn" class="btn-prev">
+                <div class="prev-top-holder">
+                  <div class="prev-icon">
+                    <svg
+                      width="30"
+                      height="17"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.157 7l-5.293-5.293A1 1 0 1 1 22.278.293l7.071 7.071a1 1 0 0 1 0 1.414l-7.07 7.071a1 1 0 0 1-1.415-1.414L26.299 9H1.5a1 1 0 0 1 0-2h24.657z"
+                        fill-rule="nonzero"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="prev-icon-txt">
+                    <p>Previous</p>
+                  </div>
+                </div>
+                <div class="prev-bot-holder">
+                  <p>You won't lose your information</p>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+    <script src="./js/funnel.js"></script>
+  </body>
+</html>

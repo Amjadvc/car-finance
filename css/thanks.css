@@ -1,0 +1,35 @@
+/* ===============thanks=============== */
+.thanks-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+
+.thanks-main .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.thanks-main .container .img-holder {
+  width: 200px;
+}
+
+.thanks-main .container .img-holder svg {
+  width: 100%;
+  height: 100%;
+}
+
+.thanks-main h1 {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+.thanks-main p {
+  font-family: "Poppins", serif;
+
+  text-align: center;
+}
