@@ -8,7 +8,7 @@ The website guides users through a **step-by-step process** to receive personali
 ## Live Demo
 
 You can view the live site here:  
-[CarFinance247 – Live Demo](https://carfinance247.ca/)
+[CarFinance247 – Live Demo](https://car-finance.netlify.app/)
 
 ---
 
